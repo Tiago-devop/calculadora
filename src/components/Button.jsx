@@ -2,7 +2,7 @@ import React from 'react'
 import './Button.css'
 
 export default props => {
-    let classes = 'button'
+    let classes = 'button ' /* espaço p/ as classes n ficarem juntas! */
     classes += props.operation ? 'operation' : ''
     classes += props.double ? 'double' : ''
     classes += props.triple ? 'triple' : ''
